@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{244DF172-21E5-4C26-87D2-BACB0642A461}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DcProgrammingTutorial.Lib</RootNamespace>
+    <AssemblyName>DcProgrammingTutorial.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>DcProgrammingTutorial.Lib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\EntityCompanyController.cs" />
+    <Compile Include="Controllers\EntityProfileController.cs" />
+    <Compile Include="Controllers\EntityUserController.cs" />
+    <Compile Include="DBContext\Configurations\ProfilesConfiguration.cs" />
+    <Compile Include="DBContext\Configurations\UsersConfiguration.cs" />
+    <Compile Include="Enums\ProfileType.cs" />
+    <Compile Include="Helpers\AmkaCalculation.cs" />
+    <Compile Include="Helpers\IIsValidCalculations.cs" />
+    <Compile Include="Helpers\VatCalculation.cs" />
+    <Compile Include="Migrations\201611251029189_propertyTaxIdToCompany.cs" />
+    <Compile Include="Migrations\201611251029189_propertyTaxIdToCompany.Designer.cs">
+      <DependentUpon>201611251029189_propertyTaxIdToCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701031017464_AddedUsersAndProfiles.cs" />
+    <Compile Include="Migrations\201701031017464_AddedUsersAndProfiles.Designer.cs">
+      <DependentUpon>201701031017464_AddedUsersAndProfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701031107152_AddedUsersAndProfilesfINAL.cs" />
+    <Compile Include="Migrations\201701031107152_AddedUsersAndProfilesfINAL.Designer.cs">
+      <DependentUpon>201701031107152_AddedUsersAndProfilesfINAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BindingLists.cs" />
+    <Compile Include="Model\Entities.cs" />
+    <Compile Include="Model\Persistent\Company.cs" />
+    <Compile Include="Model\Persistent\Document.cs" />
+    <Compile Include="Model\Logger.cs" />
+    <Compile Include="Controllers\DocumentController.cs" />
+    <Compile Include="Controllers\DocumentControllerV2.cs" />
+    <Compile Include="Controllers\EntityDocumentController.cs" />
+    <Compile Include="DBContext\Configurations\CompanyConfiguration.cs" />
+    <Compile Include="DBContext\DataBaseContext.cs" />
+    <Compile Include="DBContext\Configurations\DocumentConfiguration.cs" />
+    <Compile Include="Enums\ErrorTypes.cs" />
+    <Compile Include="Controllers\Interface\ICompanyController.cs" />
+    <Compile Include="Model\Persistent\Interface\IEntity.cs" />
+    <Compile Include="Controllers\Interface\IDocumentController.cs" />
+    <Compile Include="Model\Persistent\Interface\IEntityAudit.cs" />
+    <Compile Include="Controllers\Interface\IEntityController.cs" />
+    <Compile Include="Model\Persistent\Profile.cs" />
+    <Compile Include="Model\Persistent\User.cs" />
+    <Compile Include="Repositories\Interface\IEntityRepository.cs" />
+    <Compile Include="Migrations\201611220923256_Initial.cs" />
+    <Compile Include="Migrations\201611220923256_Initial.Designer.cs">
+      <DependentUpon>201611220923256_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611220948467_ChangesOnDocumentTable.cs" />
+    <Compile Include="Migrations\201611220948467_ChangesOnDocumentTable.Designer.cs">
+      <DependentUpon>201611220948467_ChangesOnDocumentTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611220951211_ChangesOnCompanyTable.cs" />
+    <Compile Include="Migrations\201611220951211_ChangesOnCompanyTable.Designer.cs">
+      <DependentUpon>201611220951211_ChangesOnCompanyTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611220957010_ChangesOnCompany.cs" />
+    <Compile Include="Migrations\201611220957010_ChangesOnCompany.Designer.cs">
+      <DependentUpon>201611220957010_ChangesOnCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611221005238_IgnoredAutoGenertatedIdColumn.cs" />
+    <Compile Include="Migrations\201611221005238_IgnoredAutoGenertatedIdColumn.Designer.cs">
+      <DependentUpon>201611221005238_IgnoredAutoGenertatedIdColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\CompanyEntityRepository.cs" />
+    <Compile Include="Repositories\DocumentEntityRepository.cs" />
+    <Compile Include="Repositories\OldEntityRepository.cs" />
+    <Compile Include="Repositories\ProfileEntityRepository.cs" />
+    <Compile Include="Repositories\UserEntityRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201611220923256_Initial.resx">
+      <DependentUpon>201611220923256_Initial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611220948467_ChangesOnDocumentTable.resx">
+      <DependentUpon>201611220948467_ChangesOnDocumentTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611220951211_ChangesOnCompanyTable.resx">
+      <DependentUpon>201611220951211_ChangesOnCompanyTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611220957010_ChangesOnCompany.resx">
+      <DependentUpon>201611220957010_ChangesOnCompany.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611221005238_IgnoredAutoGenertatedIdColumn.resx">
+      <DependentUpon>201611221005238_IgnoredAutoGenertatedIdColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611251029189_propertyTaxIdToCompany.resx">
+      <DependentUpon>201611251029189_propertyTaxIdToCompany.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701031017464_AddedUsersAndProfiles.resx">
+      <DependentUpon>201701031017464_AddedUsersAndProfiles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701031107152_AddedUsersAndProfilesfINAL.resx">
+      <DependentUpon>201701031107152_AddedUsersAndProfilesfINAL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
