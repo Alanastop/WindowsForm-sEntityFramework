@@ -1,0 +1,1920 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DcProgrammingTutorial.Lib</name>
+    </assembly>
+    <members>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController">
+            <summary>
+            The entity company controller.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.ReadCompanyDocumentsToStream">
+            <summary>
+            The read company documents to stream.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.#ctor(DcProgrammingTutorial.Lib.Helpers.IIsValidCalculations)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController"/> class.
+            </summary>
+            <param name="calculations">
+            The calculations.
+            </param>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.IsValidCalculations">
+            <summary>
+            Gets or sets the is valid calculations interface.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.Repository">
+            <summary>
+            Gets or sets the repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.CreateOrUpdateEntity(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            The create or update entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Company"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.DeleteEntity(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            The delete entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <exception cref="T:System.NotImplementedException">
+            The Company list is Empty.
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.GetEntity(System.Int32)">
+            <summary>
+            Gets one Company.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Company"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.IsValid(System.String)">
+            <summary>
+            The is valid.
+            </summary>
+            <param name="toCalculate">
+            The to Calculate.
+            </param>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.Link(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            The link.
+            </summary>
+            <param name="company">
+            The company.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Company"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.RefreshEntities">
+            <summary>
+            Refreshes the companies list.
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.SearchCompaniesByTaxId(System.String)">
+            <summary>
+            The search companies by tax id.
+            </summary>
+            <param name="taxId">
+            The tax id.
+            </param>
+            <returns>
+            The <see cref="!:List"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.SendEmailWithDocuments(System.Func{DcProgrammingTutorial.Lib.Model.Persistent.Company,System.IO.MemoryStream},DcProgrammingTutorial.Lib.Model.Persistent.Company,System.String,System.String)">
+            <summary>
+            This Method sends email with the selected company and the documents inside.
+            </summary>
+            <param name="func">
+            The function to send email.
+            </param>
+            <param name="company">
+            The company.
+            </param>
+            <param name="email">
+            The email.
+            </param>
+            <param name="password">
+            The password.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.SendEmailWithDocuments(System.Func{DcProgrammingTutorial.Lib.Model.Persistent.Company,System.IO.MemoryStream},DcProgrammingTutorial.Lib.Model.Persistent.Company,System.String)">
+            <summary>
+            The send email with documents.
+            </summary>
+            <param name="func">
+            The func.
+            </param>
+            <param name="company">
+            The company.
+            </param>
+            <param name="email">
+            The email.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.SendEmailWithDocumentsAsync(System.Func{DcProgrammingTutorial.Lib.Model.Persistent.Company,System.IO.MemoryStream},DcProgrammingTutorial.Lib.Model.Persistent.Company,System.String,System.String)">
+            <summary>
+            The send email with documents async.
+            </summary>
+            <param name="func">
+            The func.
+            </param>
+            <param name="company">
+            The company.
+            </param>
+            <param name="email">
+            The email.
+            </param>
+            <param name="password">
+            The password.
+            </param>
+            <returns>
+            The <see cref="T:System.Threading.Tasks.Task"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.Unlink(System.Int32)">
+            <summary>
+            The un link one or many documents from company.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityCompanyController.Unlink(DcProgrammingTutorial.Lib.Model.Persistent.Company,DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            The unlink.
+            </summary>
+            <param name="company">
+            The company.
+            </param>
+            <param name="document">
+            The document.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.EntityProfileController">
+            <summary>
+            The entity profile controller.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityProfileController.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Controllers.EntityProfileController"/> class.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Controllers.EntityProfileController.Repository">
+            <summary>
+            Gets or sets the repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityProfileController.CreateOrUpdateEntity(DcProgrammingTutorial.Lib.Model.Persistent.Profile)">
+            <summary>
+            The create or update entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Profile"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityProfileController.DeleteEntity(DcProgrammingTutorial.Lib.Model.Persistent.Profile)">
+            <summary>
+            The delete entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Returns an ArgumentNullException
+            </exception> 
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityProfileController.RefreshEntities">
+            <summary>
+            The refresh entities.
+            </summary>
+            <returns>
+            The <see cref="!:IList"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityProfileController.GetEntity(System.Int32)">
+            <summary>
+            The get entity.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Profile"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityProfileController.GetProfile(System.Int32,System.String,DcProgrammingTutorial.Lib.Enums.ProfileType)">
+            <summary>
+            Returns the profile.
+            </summary>
+            <param name="userId">
+            The user Id.
+            </param>
+            <param name="viewId">
+            The view Id.
+            </param>
+            <param name="type">
+            The type.
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.EntityUserController">
+            <summary>
+            The entity user controller.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityUserController.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Controllers.EntityUserController"/> class.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Controllers.EntityUserController.Repository">
+            <summary>
+            Gets or sets the repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityUserController.CreateOrUpdateEntity(DcProgrammingTutorial.Lib.Model.Persistent.User)">
+            <summary>
+            The create or update entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.User"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityUserController.DeleteEntity(DcProgrammingTutorial.Lib.Model.Persistent.User)">
+            <summary>
+            The delete entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Returns an ArgumentNullException.
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityUserController.RefreshEntities">
+            <summary>
+            The refresh entities.
+            </summary>
+            <returns>
+            The <see cref="!:IList"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityUserController.GetEntity(System.Int32)">
+            <summary>
+            The get entity.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.User"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityUserController.GetUserByUserName(System.String)">
+            <summary>
+            The search users by user name.
+            </summary>
+            <param name="userName">
+            The user name.
+            </param>
+            <returns>
+            The <see cref="!:List"/>.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.DocumentController">
+            <summary>
+            The document controller.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentController.DocumentListEmptyErrorMessage">
+            <summary>
+            The message that is displayed every time our list is empty.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentController.counterId">
+            <summary>
+            The counter that increases the document id.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Controllers.DocumentController"/> class.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Controllers.DocumentController.Repository">
+            <summary>
+            Gets or sets the repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.CalculateAverageBalance(System.Collections.Generic.IList{DcProgrammingTutorial.Lib.Model.Persistent.Document})">
+            <summary>
+            A method that calculates the average balance of the documents in our current list.
+            </summary>
+            <param name="list">
+            The cells binding list.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the average of our current documents.
+            </returns>
+            <exception cref="T:System.ArgumentException"> Fired when given list is empty.</exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.CalculateTax(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            A method that calculates the tax of the selected document.
+            </summary>
+            <param name="document">
+            The selected document.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the selected document tax.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.CreateOrUpdateEntity(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            The create or update entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+            <exception cref="T:System.NotImplementedException">
+            Exception method
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.DeleteEntity(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            The delete entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <exception cref="T:System.NotImplementedException">
+            Not Implemented Exception
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.RefreshEntities">
+            <summary>
+            The refresh entities.
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            </returns>
+            <exception cref="T:System.NotImplementedException">
+            Not Implemented Exception
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.GetEntity(System.Int32)">
+            <summary>
+            The get entity.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+            <exception cref="T:System.NotImplementedException">
+            Not Implemented Exception
+            </exception>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2">
+            <summary>
+            The document controller v 2 class.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.TaxCalculateErrorMessage">
+            <summary>
+            The message which is displayed every time the user tries to calculate the tax and there is no document in our list.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.AverageCalculateErrorMessage">
+            <summary>
+            he message which is displayed every time the user tries to calculate the average balance of our documents and our list is empty.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.CalculateAverageBalance(System.Collections.Generic.IList{DcProgrammingTutorial.Lib.Model.Persistent.Document})">
+            <summary>
+            A method which calculates average balance.
+            </summary>
+            <param name="list">
+            The name of our document list.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the average balance of our documents.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.CalculateTax(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            A method which calculates the tax of our selected document.
+            </summary>
+            <param name="document">
+            The document name.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the selected document tax.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.EntityDocumentController">
+            <summary>
+            The entity document controller.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityDocumentController.CreateOrUpdateEntity(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            The create or update entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Null Exception
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityDocumentController.DeleteEntity(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            The delete entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Null Exception
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityDocumentController.RefreshEntities">
+            <summary>
+            The refresh entities.
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.EntityDocumentController.GetEntity(System.Int32)">
+            <summary>
+            The get entity.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.Interface.ICompanyController">
+            <summary>
+            The CompanyController interface.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.ICompanyController.Unlink(System.Int32)">
+            <summary>
+            The un link one or many documents from company.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.ICompanyController.Unlink(DcProgrammingTutorial.Lib.Model.Persistent.Company,DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            The unlink.
+            </summary>
+            <param name="company">
+            The company.
+            </param>
+            <param name="document">
+            The document.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.ICompanyController.Link(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            The link.
+            </summary>
+            <param name="company">
+            The company.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Company"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.ICompanyController.SendEmailWithDocuments(System.Func{DcProgrammingTutorial.Lib.Model.Persistent.Company,System.IO.MemoryStream},DcProgrammingTutorial.Lib.Model.Persistent.Company,System.String,System.String)">
+            <summary>
+            The send email with documents.
+            </summary>
+            <param name="func">
+            The function.
+            </param>
+            <param name="company">
+            The company.
+            </param>
+            <param name="email">
+            The email.
+            </param>
+            <param name="password">
+            The password.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.ICompanyController.SendEmailWithDocuments(System.Func{DcProgrammingTutorial.Lib.Model.Persistent.Company,System.IO.MemoryStream},DcProgrammingTutorial.Lib.Model.Persistent.Company,System.String)">
+            <summary>
+            The send email with documents.
+            </summary>
+            <param name="func">
+            The function.
+            </param>
+            <param name="company">
+            The company.
+            </param>
+            <param name="email">
+            The email.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.ICompanyController.IsValid(System.String)">
+            <summary>
+            The is valid.
+            </summary>
+            <param name="calculateFunc">
+            The calculate function.
+            </param>
+            <param name="toCalculate">
+            The to calculate.
+            </param>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.Interface.IDocumentController">
+            <summary>
+            The DocumentController interface.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.IDocumentController.CalculateAverageBalance(System.Collections.Generic.IList{DcProgrammingTutorial.Lib.Model.Persistent.Document})">
+            <summary>
+            A method that calculates the average balance of our current documents in list.
+            </summary>
+            <param name="list">
+            A list with our current documents.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the average balance of our documents in list.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.IDocumentController.CalculateTax(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            A method which calculates the tax of the current document.
+            </summary>
+            <param name="document">
+            The selected document name.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the tax of the selected document.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.Interface.IEntityController`1">
+            <summary>
+            The EntityController interface.
+            </summary>
+            <typeparam name="T">
+            Company or Document.
+            </typeparam>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Controllers.Interface.IEntityController`1.Repository">
+            <summary>
+            Gets or sets the repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.IEntityController`1.CreateOrUpdateEntity(`0)">
+            <summary>
+            The create or update entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+            <returns>
+            The <see cref="!:T"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.IEntityController`1.DeleteEntity(`0)">
+            <summary>
+            The delete entity.
+            </summary>
+            <param name="entity">
+            The entity.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.IEntityController`1.RefreshEntities">
+            <summary>
+            The refresh entities.
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.Interface.IEntityController`1.GetEntity(System.Int32)">
+            <summary>
+            The get entity.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="!:T"/>.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.DBContext.Configurations.ProfilesConfiguration">
+            <summary>
+            The profiles configuration.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.DBContext.Configurations.ProfilesConfiguration.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.DBContext.Configurations.ProfilesConfiguration"/> class.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.DBContext.Configurations.UsersConfiguration">
+            <summary>
+            The user configuration.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.DBContext.Configurations.UsersConfiguration.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.DBContext.Configurations.UsersConfiguration"/> class.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.DBContext.Configurations.CompanyConfiguration">
+            <summary>
+            The company configuration.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.DBContext.Configurations.CompanyConfiguration.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.DBContext.Configurations.CompanyConfiguration"/> class.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.DBContext.Configurations.DocumentConfiguration">
+            <summary>
+            The document configuration.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.DBContext.Configurations.DocumentConfiguration.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.DBContext.Configurations.DocumentConfiguration"/> class.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.DBContext.DataBaseContext">
+            <summary>
+            The Database context.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.DBContext.DataBaseContext.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.DBContext.DataBaseContext"/> class.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.DBContext.DataBaseContext.Company">
+            <summary>
+            Gets or sets the companies.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.DBContext.DataBaseContext.Document">
+            <summary>
+            Gets or sets the documents.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.DBContext.DataBaseContext.User">
+            <summary>
+            Gets or sets the user.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.DBContext.DataBaseContext.Profile">
+            <summary>
+            Gets or sets the profile.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.DBContext.DataBaseContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>
+            The on model creating.
+            </summary>
+            <param name="modelBuilder">
+            The model builder.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Enums.ProfileType">
+            <summary>
+            An enum that holds the error types.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ProfileType.GridView">
+            <summary>
+            The GridView.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ProfileType.DashBoard">
+            <summary>
+            The DashBoard.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ProfileType.Chart">
+            <summary>
+            The Chart.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ProfileType.ReportLayout">
+            <summary>
+            The Report Layout
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Enums.ErrorTypes">
+            <summary>
+            An enum that holds the error types.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ErrorTypes.Warning">
+            <summary>
+            The warning type of errors.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ErrorTypes.Error">
+            <summary>
+            The error type of errors.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ErrorTypes.Info">
+            <summary>
+            The info type of errors.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Helpers.IIsValidCalculations">
+            <summary>
+            The IsValidCalculations interface.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Helpers.IIsValidCalculations.Calculate(System.String)">
+            <summary>
+            The calculate.
+            </summary>
+            <param name="param">
+            The param.
+            </param>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Helpers.IIsValidCalculations.Calculate(System.String,System.Func{System.String,System.Boolean})">
+            <summary>
+            The calculate.
+            </summary>
+            <param name="param">
+            The param.
+            </param>
+            <param name="func">
+            The func.
+            </param>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Helpers.VatCalculation">
+            <summary>
+            The vat calculation.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Helpers.VatCalculation.calculateVatFunc">
+            <summary>
+            The calculate vat func.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Helpers.VatCalculation.Calculate(System.String)">
+            <summary>
+            The calculate.
+            </summary>
+            <param name="param">
+            The param.
+            </param>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Helpers.VatCalculation.Calculate(System.String,System.Func{System.String,System.Boolean})">
+            <summary>
+            The calculate.
+            </summary>
+            <param name="param">
+            The param.
+            </param>
+            <param name="func">
+            The func.
+            </param>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.AddedUsersAndProfiles">
+            <summary>
+            The added users and profiles.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.AddedUsersAndProfiles.Down">
+            <summary>
+            The down.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.AddedUsersAndProfiles.Up">
+            <summary>
+            The up.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.AddedUsersAndProfilesfINAL">
+            <summary>
+            The added users and profilesf inal.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.AddedUsersAndProfilesfINAL.Down">
+            <summary>
+            The down.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.AddedUsersAndProfilesfINAL.Up">
+            <summary>
+            The up.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.Initial">
+            <summary>
+            The initial.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.Initial.Down">
+            <summary>
+            The down.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.Initial.Up">
+            <summary>
+            The up.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.ChangesOnDocumentTable">
+            <summary>
+            The changes on document table.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.ChangesOnDocumentTable.Down">
+            <summary>
+            The down.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.ChangesOnDocumentTable.Up">
+            <summary>
+            The up.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.ChangesOnCompanyTable">
+            <summary>
+            The changes on company table.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.ChangesOnCompanyTable.Down">
+            <summary>
+            The down.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.ChangesOnCompanyTable.Up">
+            <summary>
+            The up.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.ChangesOnCompany">
+            <summary>
+            The changes on company.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.ChangesOnCompany.Down">
+            <summary>
+            The down.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.ChangesOnCompany.Up">
+            <summary>
+            The up.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.IgnoredAutoGenertatedIdColumn">
+            <summary>
+            The ignored auto genertated id column.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.IgnoredAutoGenertatedIdColumn.Down">
+            <summary>
+            The down.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.IgnoredAutoGenertatedIdColumn.Up">
+            <summary>
+            The up.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Migrations.Configuration">
+            <summary>
+            The configuration.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.Configuration.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Migrations.Configuration"/> class.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Migrations.Configuration.Seed(DcProgrammingTutorial.Lib.DBContext.DataBaseContext)">
+            <summary>
+            The seed.
+            </summary>
+            <param name="context">
+            The context.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.BindingLists">
+            <summary>
+            A class which contains the list of documents and the list of companies.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.BindingLists.DocumentList">
+            <summary>
+            Gets or sets the document list.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.BindingLists.CompanyList">
+            <summary>
+            Gets or sets the company list.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Entities">
+            <summary>
+            The entities.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Entities.Company">
+            <summary>
+            Gets or sets the company.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Entities.Document">
+            <summary>
+            Gets or sets the document.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.CompanyAddedToList">
+            <summary>
+            A delegate that holds an event each time a company is added to list.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.CompanyUpdated">
+            <summary>
+            A delegate which holds an event every time a company is updated.
+            </summary>
+            <param name="company">
+            The company which is updated.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.Company">
+            <summary>
+            A class with the audits of the company.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Persistent.Company.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Company"/> class.
+            </summary>
+        </member>
+        <member name="E:DcProgrammingTutorial.Lib.Model.Persistent.Company.CompanyAddedToList">
+            <summary>
+            The company added to list event.
+            </summary>
+        </member>
+        <member name="E:DcProgrammingTutorial.Lib.Model.Persistent.Company.CompanyUpdated">
+            <summary>
+            The company updated event.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Documents">
+            <summary>
+            Gets or sets a list of documents of the current company.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Id">
+            <summary>
+            Gets or sets the company id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Name">
+            <summary>
+            Gets or sets the company name.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Code">
+            <summary>
+            Gets or sets the code of the company.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Created">
+            <summary>
+            Gets or sets the date and time which the company is created.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.CreatedBy">
+            <summary>
+            Gets or sets the user the object is created by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Updated">
+            <summary>
+            Gets or sets the date and time which the company is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.UpdatedBy">
+            <summary>
+            Gets or sets the user the object is updated by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Active">
+            <summary>
+            Gets or sets a value indicating whether the company is active.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.Deleted">
+            <summary>
+            Gets or sets when the company is deleted.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.DeletedBy">
+            <summary>
+            Gets or sets the user the object is deleted by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.AutoGeneratedId">
+            <summary>
+            Gets or sets a value indicating whether id is auto generated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Company.TaxId">
+            <summary>
+            Gets or sets the tax id.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Persistent.Company.OnCompanyAddedToList">
+            <summary>
+            The on document added to list.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Persistent.Company.OnCompanyUpdated">
+            <summary>
+            The on company updated.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.DocumentAddedToList">
+            <summary>
+            A delegate that holds an event each time a document is added to list.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.DocumentUpdated">
+            <summary>
+            The document updated.
+            </summary>
+            <param name="document">
+            The document.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.Document">
+            <summary>
+            A class with the document's audits.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Persistent.Document.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/> class.
+            </summary>
+        </member>
+        <member name="E:DcProgrammingTutorial.Lib.Model.Persistent.Document.DocumentAddedToList">
+            <summary>
+            A list that contains our current documents.
+            </summary>
+        </member>
+        <member name="E:DcProgrammingTutorial.Lib.Model.Persistent.Document.DocumentUpdated">
+            <summary>
+            An event which is invoked each time a document is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.AutoGeneratedId">
+            <summary>
+            Gets or sets a value indicating whether id is auto generated..
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.CompanyName">
+            <summary>
+            The company name.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Id">
+            <summary>
+            Gets or sets the document id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Name">
+            <summary>
+            Gets or sets the document name.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Code">
+            <summary>
+            Gets or sets the document code.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Balance">
+            <summary>
+            Gets or sets the balance of the document.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Company">
+            <summary>
+            Gets or sets the document company.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.CompanyId">
+            <summary>
+            Gets or sets the company id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Created">
+            <summary>
+            Gets or sets the date and time which the document is created.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.CreatedBy">
+            <summary>
+            Gets or sets the date and time which the document is created by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Deleted">
+            <summary>
+            Gets or sets the date and time which the document is deleted.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.DeletedBy">
+            <summary>
+            Gets or sets the user the document is deleted by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.Updated">
+            <summary>
+            Gets or sets the date and time which the document is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Document.UpdatedBy">
+            <summary>
+            Gets or sets the user the document is updated by.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Persistent.Document.OnDocumentAddedToList">
+            <summary>
+            The on document added to list.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Persistent.Document.OnDocumentUpdated">
+            <summary>
+            Invokes an event every time the method is updated.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntity">
+            <summary>
+            An interface which holds the code and the id of our entities.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntity.Code">
+            <summary>
+            Gets or sets the code of our current entities.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntity.Id">
+            <summary>
+            Gets or sets the id our current entities.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit">
+            <summary>
+            The interface which contains our audit fields.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit.Created">
+            <summary>
+            Gets or sets the date and time when the document is created.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit.Updated">
+            <summary>
+            Gets or sets when a document is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit.Deleted">
+            <summary>
+            Gets or sets when a document is deleted.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit.CreatedBy">
+            <summary>
+            Gets or sets from who a document is created by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit.UpdatedBy">
+            <summary>
+            Gets or sets from who a document is updated by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit.DeletedBy">
+            <summary>
+            Gets or sets from who a document is deleted by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Interface.IEntityAudit.AutoGeneratedId">
+            <summary>
+            Gets or sets a value indicating whether id is auto generated.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.Profile">
+            <summary>
+            The profiles.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Profile.Id">
+            <summary>
+            Gets or sets the company id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Profile.Code">
+            <summary>
+            Gets or sets the code.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Profile.UserId">
+            <summary>
+            Gets or sets the user id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Profile.ProfileType">
+            <summary>
+            Gets or sets the type of.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Profile.ViewId">
+            <summary>
+            Gets or sets the entity type.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Profile.Customization">
+            <summary>
+            Gets or sets the customization.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.Profile.User">
+            <summary>
+            Gets or sets the user.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Persistent.User">
+            <summary>
+            The users.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Persistent.User.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.User"/> class.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.User.Id">
+            <summary>
+            Gets or sets the user id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.User.Code">
+            <summary>
+            Gets or sets the code.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.User.Name">
+            <summary>
+            Gets or sets the user name.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Model.Persistent.User.Profiles">
+            <summary>
+            Gets or sets a list of profiles of the current user.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Model.Logger">
+            <summary>
+             The Logger class.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Model.Logger.AddLog(System.String,System.Enum,System.DateTime)">
+            <summary>
+            A method that creates a txt file with the errors,the warnings and the user who did it them.
+            </summary>
+            <param name="exceptions">
+            The name of the current exception.
+            </param>
+            <param name="errorTypes">
+            The given error type.
+            </param>
+            <param name="time">
+            The time which the error is committed.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1">
+            <summary>
+            The OldEntityRepository interface.
+            </summary>
+            <typeparam name="T">
+            Company or Document parameter
+            </typeparam>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1.Create(`0)">
+            <summary>
+            Creates a Company or Document.
+            </summary>
+            <param name="entity">
+            Company or Document entity.
+            </param>
+            <returns>
+            The <see cref="!:T"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1.Delete(System.Int32)">
+            <summary>
+            Deletes the current Company or Document.
+            </summary>
+            <param name="id">
+            The Id of the Company or Document.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1.Delete(System.Int32,System.String)">
+            <summary>
+            The delete.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <param name="createdBy">
+            The created by.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1.ReadAllList">
+            <summary>
+            Reads all Companies or Documents
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1.ReadAllQuery(DcProgrammingTutorial.Lib.DBContext.DataBaseContext)">
+            <summary>
+            The read all query.
+            </summary>
+            <param name="context">
+            The context.
+            </param>
+            <returns>
+            The <see cref="T:System.Linq.IQueryable"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1.ReadOne(System.Int32)">
+            <summary>
+            Reads single Company or Documents.
+            </summary>
+            <param name="id">
+            The Id of the Company or Document.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.Interface.IEntityRepository`1.Update(`0)">
+            <summary>
+            Updates the current Company or Document.
+            </summary>
+            <param name="entity">
+            Takes a Company or Document entity.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository">
+            <summary>
+            The company entity provider.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.Create(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            Creates a Company.
+            </summary>
+            <param name="company">
+            The company.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Company"/>.
+            The company
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.Delete(System.Int32)">
+            <summary>
+            Deletes a Company by Id.
+            </summary>
+            <param name="id">
+            The Company Id.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.Delete(System.Int32,System.String)">
+            <summary>
+            Deletes Company by Id and Name
+            </summary>
+            <param name="id">
+            The Company id.
+            </param>
+            <param name="createdBy">
+            The Company created by.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Company is null
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.ReadAllList">
+            <summary>
+            Reads all Companies.
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.ReadAllQuery(DcProgrammingTutorial.Lib.DBContext.DataBaseContext)">
+            <summary>
+            Reads all Companies by query.
+            </summary>
+            <param name="context">
+            The context.
+            </param>
+            <returns>
+            The <see cref="T:System.Linq.IQueryable"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.ReadOne(System.Int32)">
+            <summary>
+            Reads a single Company.
+            </summary>
+            <param name="id">
+            The Company Id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.Update(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            Updates a Company.
+            </summary>
+            <param name="company">
+            The company.
+            </param>
+            <exception cref="T:System.NotImplementedException">
+            DataBase Company is Null
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.Unlink(System.Int32)">
+            <summary>
+            Unlinks the selected document from company.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.CompanyEntityRepository.Unlink(DcProgrammingTutorial.Lib.Model.Persistent.Company,DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            The unlink.
+            </summary>
+            <param name="company">
+            The company.
+            </param>
+            <param name="document">
+            The document.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository">
+            <summary>
+            The Document entity Repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository.Create(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            Creates a Document.
+            </summary>
+            <summary>
+            Creates a document.
+            </summary>
+            <param name="document">
+            The entity parameter.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository.Delete(System.Int32)">
+            <summary>
+            Deletes a Document by id.
+            </summary>
+            <param name="id">
+            The Document Id.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository.Delete(System.Int32,System.String)">
+            <summary>
+            Deletes a Document by id and User name.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <param name="createdBy">
+            The created by.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Document is null
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository.ReadAllList">
+            <summary>
+            Reads all documents.
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            returns a list of documents
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository.ReadAllQuery(DcProgrammingTutorial.Lib.DBContext.DataBaseContext)">
+            <summary>
+            Reads all documents by query.
+            </summary>
+            <param name="context">
+            The context.
+            </param>
+            <returns>
+            The <see cref="T:System.Linq.IQueryable"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository.ReadOne(System.Int32)">
+            <summary>
+            Reads single Document.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.DocumentEntityRepository.Update(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            Updates a document.
+            </summary>
+            <param name="document">
+            The document.
+            </param>
+            <exception cref="T:System.NotImplementedException">
+            DataBase Document is Null
+            </exception>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository">
+            <summary>
+            The document provider.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.CompanyList">
+            <summary>
+            The company list.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.documentList">
+            <summary>
+            The documents list.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.listContainer">
+            <summary>
+            The list container.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.myDocument">
+            <summary>
+            The document.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository"/> class.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.CreateCompany(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            Creates a new company.
+            </summary>
+            <param name="company">
+            The new company.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.CreateDocument(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            A method which creates a new document.
+            </summary>
+            <param name="document">
+            It takes the newly created document as parameter.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.DeleteCompany(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            Deletes the selected company.
+            </summary>
+            <param name="company">
+            The selected company.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.DeleteCompany(System.String)">
+            <summary>
+            Deletes the selected company from database.
+            </summary>
+            <param name="companyCode">
+            A string which contains the company code.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.DeleteDocument(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            Deletes the selected document.
+            </summary>
+            <param name="document">
+            The selected document to be deleted.
+            document 
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.ReadAllCompanies">
+            <summary>
+            Reads all companies from database.
+            </summary>
+            <returns>
+            The <see cref="T:System.ComponentModel.BindingList`1"/>.
+            Returns a list which contains the existing companies in database.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.ReadAllDocuments">
+            <summary>
+            Bings all documents from data base.
+            </summary>
+            <returns>
+            The <see cref="T:System.Object"/>.
+            Returns an object which holds a list of documents and a list of companies.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.ReadOneCompany(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            Reads one company.
+            </summary>
+            <param name="company">
+            The selected company.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.ReadOneDocument(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            Deletes the selected document from database.
+            </summary>
+            <param name="document">
+             The name of the selected document.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Document"/>.
+            Returns a document.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.UpdateCompany(DcProgrammingTutorial.Lib.Model.Persistent.Company)">
+            <summary>
+            Updates the company.
+            </summary>
+            <param name="company">
+            The selected company to be updated.
+            </param>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.OldEntityRepository.UpdateDocument(DcProgrammingTutorial.Lib.Model.Persistent.Document)">
+            <summary>
+            Updates the selected document.
+            </summary>
+            <param name="document">
+            The selected document to be updated.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository">
+            <summary>
+            The profile entity repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository.Create(DcProgrammingTutorial.Lib.Model.Persistent.Profile)">
+            <summary>
+            The create.
+            </summary>
+            <param name="profile">
+            The profile.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Profile"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository.Delete(System.Int32)">
+            <summary>
+            The delete.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Returns an ArgumentNullException.
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository.Delete(System.Int32,System.String)">
+            <summary>
+            The delete.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <param name="createdBy">
+            The created by.
+            </param>
+            <exception cref="T:System.NotImplementedException">
+             Returns an NotImplementedException.
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository.ReadAllList">
+            <summary>
+            The read all list.
+            </summary>
+            <returns>
+            The <see cref="!:IList"></see>
+                .
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository.ReadAllQuery(DcProgrammingTutorial.Lib.DBContext.DataBaseContext)">
+            <summary>
+            The read all query.
+            </summary>
+            <param name="context">
+            The context.
+            </param>
+            <returns>
+            The <see cref="T:System.Linq.IQueryable"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository.ReadOne(System.Int32)">
+            <summary>
+            The read one.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Profile"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.ProfileEntityRepository.Update(DcProgrammingTutorial.Lib.Model.Persistent.Profile)">
+            <summary>
+            The update.
+            </summary>
+            <param name="profile">
+            The profile.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository">
+            <summary>
+            The user entity repository.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository.Create(DcProgrammingTutorial.Lib.Model.Persistent.User)">
+            <summary>
+            The create.
+            </summary>
+            <param name="user">
+            The user.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.User"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository.Delete(System.Int32)">
+            <summary>
+            The delete.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Returns an ArgumentNullException.
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository.Delete(System.Int32,System.String)">
+            <summary>
+            The delete.
+            </summary>
+            <param name="id">
+            The id.
+            </param>
+            <param name="createdBy">
+            The created by.
+            </param>
+            <exception cref="T:System.NotImplementedException">
+            Returns an ArgumentNullException.
+            </exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository.ReadAllList">
+            <summary>
+            Reads all Users.
+            </summary>
+            <returns>
+            The <see cref="T:System.Collections.Generic.IList`1"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository.ReadAllQuery(DcProgrammingTutorial.Lib.DBContext.DataBaseContext)">
+            <summary>
+            Reads all Companies by query.
+            </summary>
+            <param name="context">
+            The context.
+            </param>
+            <returns>
+            The <see cref="T:System.Linq.IQueryable"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository.ReadOne(System.Int32)">
+            <summary>
+            Reads a single Company.
+            </summary>
+            <param name="id">
+            The Company Id.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Model.Persistent.Profile"/>.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Repositories.UserEntityRepository.Update(DcProgrammingTutorial.Lib.Model.Persistent.User)">
+            <summary>
+            Updates a Company.
+            </summary>
+            <param name="user">
+            The company.
+            </param>
+            <exception cref="T:System.NotImplementedException">
+            DataBase Company is Null
+            </exception>
+        </member>
+    </members>
+</doc>
