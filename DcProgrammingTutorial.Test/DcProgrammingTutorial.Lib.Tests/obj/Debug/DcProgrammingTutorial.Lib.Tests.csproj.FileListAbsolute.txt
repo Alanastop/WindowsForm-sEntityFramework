@@ -1,0 +1,15 @@
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\obj\Debug\DcProgrammingTutorial.Lib.Tests.csprojResolveAssemblyReference.cache
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\DcProgrammingTutorial.Lib.Tests.dll
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\DcProgrammingTutorial.Lib.Tests.pdb
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\DcProgrammingTutorial.Lib.dll
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\nunit.framework.dll
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\EntityFramework.dll
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\DcProgrammingTutorial.Lib.pdb
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\DcProgrammingTutorial.Lib.xml
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\nunit.framework.xml
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\EntityFramework.xml
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\obj\Debug\DcProgrammingTutorial.Lib.Tests.dll
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\obj\Debug\DcProgrammingTutorial.Lib.Tests.pdb
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\DcProgrammingTutorial.Lib.Tests.dll.config
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\!projects!\DCProgrammingTutorial(Git)\DcProgrammingTutorial.Test\DcProgrammingTutorial.Lib.Tests\bin\Debug\EntityFramework.SqlServer.xml

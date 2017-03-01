@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterWebForm.Master.cs" Inherits="DcProgrammimgTutorialWebForm.MasterWebForm" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%">
+<head runat="server">
+    <title>DataCommunications</title>
+    <meta name="viewport" content="width= device-width, initial-scale = 1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script  src="Scripts/Scripts.js"></script>
+    <script src="Scripts/ThemeQuery.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="CssFiles/Header.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            left: 1301px;
+            top: -42px;
+        }
+    </style>
+</head>
+
+<body id="themeId" class="background-img lightThemeClass">
+    <form id="form1" runat="server">
+            <div width: 100%; height: 60px; class="mydiv btn-group theme">
+                <a href="MainWebForm.aspx" style="background-color: transparent">
+                    <img src="Images/DcLogo.png" alt="DcLogo" />
+                </a>
+                  <div style="width: 50%; float: right; text-align:right">
+                    <div class="dropdown btn-group">
+                        <button class="btn btn-default dropdown-toggle themebutton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            Themes
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="themeDropDown" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li><a id="light" href="#">Light Theme</a></li>
+                            <li><a id="dark" href="#">Dark Theme</a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="container theme" style="width: 100%;">
+                <nav class="navbar navbar-default mainmenu">
+                    <div  class="container-fluid ">
+                        <div class="navbar-header">
+                            <button style="background-color: grey" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span style="background-color: #294163" class="icon-bar"></span>
+                                <span style="background-color: #294163" class="icon-bar"></span>
+                                <span style="background-color: #294163" class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+
+
+                        <div class="container nav navbar-nav " style="width: 100%">
+                            <div id="themechange" class="row mya">
+
+                                <div class="col-lg-2 col-md-2 col-sm-2 ">
+                                    <a id="bootstrapOverride" class="theme" href="CompaniesWebForm.aspx">Companies</a>
+                                </div>
+
+                                <div class="col-lg-2 col-md-2 col-sm-2 ">
+                                    <a id="bootstrapOverride" href="DocumentsWebForm.aspx">Documents</a>
+                                </div>
+
+                                <div class="col-lg-2 col-md-2 col-sm-2 ">
+                                    <a id="bootstrapOverride" href="AboutWebForm.aspx">About</a>
+                                </div>
+
+                                <div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3 helpdiv">
+                                    <a id="bootstrapOverride" href="#">Help</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+
+        <br />
+
+        <div style="height: 25px; text-align: center;">
+            <asp:Label Style="width: 100%; font-size: x-large; color: red; text-align: center; vertical-align: bottom; background-color: #ffffff; background-color: rgba(255,255,255,0.5)" ID="divErrorMessage" ClientIDMode="Static" runat="server"></asp:Label>
+        </div>
+        <br />
+        <div class="container" style="width: 100%; border-collapse: collapse">
+            <div class="row">
+                <div class="col-sm-3" style="vertical-align: top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="col-sm-9" style="align-items: center">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <%--<script src="Scripts/jquery-3.1.1.min.js"></script>--%>
+        <script src="Scripts/bootstrap.min.js"></script>
+        <script src="Scripts/showModalDialog.js"></script>
+    </form>
+</body>
+
+</html>
+
