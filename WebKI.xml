@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Active property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Active.htm" />
+  <HelpKINode Title="AddDocumentToList method">
+    <HelpKINode Title="DocumentController.AddDocumentToList Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_AddDocumentToList.htm" />
+    <HelpKINode Title="IDocumentController.AddDocumentToList Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_AddDocumentToList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Balance property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Balance.htm" />
+  <HelpKINode Title="CalculateAverageBalance method">
+    <HelpKINode Title="DocumentController.CalculateAverageBalance Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CalculateAverageBalance.htm" />
+    <HelpKINode Title="DocumentControllerV2.CalculateAverageBalance Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2_CalculateAverageBalance.htm" />
+    <HelpKINode Title="IDocumentController.CalculateAverageBalance Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CalculateAverageBalance.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CalculateTax method">
+    <HelpKINode Title="DocumentController.CalculateTax Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CalculateTax.htm" />
+    <HelpKINode Title="DocumentControllerV2.CalculateTax Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2_CalculateTax.htm" />
+    <HelpKINode Title="IDocumentController.CalculateTax Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CalculateTax.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangesOnDocuments class">
+    <HelpKINode Title="ChangesOnDocuments Class" Url="html/T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm" />
+    <HelpKINode Title="about ChangesOnDocuments class" Url="html/T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm" />
+    <HelpKINode Title="constructor" Url="html/M_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangesOnDocuments.ChangesOnDocuments constructor" Url="html/M_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments__ctor.htm" />
+  <HelpKINode Title="ChangesOnDocuments.List property" Url="html/P_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments_List.htm" />
+  <HelpKINode Title="ChangesOnDocuments.success property" Url="html/P_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments_success.htm" />
+  <HelpKINode Title="Code property">
+    <HelpKINode Title="Company.Code Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Code.htm" />
+    <HelpKINode Title="Document.Code Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Code.htm" />
+    <HelpKINode Title="IEntity.Code Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntity_Code.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Company class">
+    <HelpKINode Title="Company Class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Company.htm" />
+    <HelpKINode Title="about Company class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Company.htm" />
+    <HelpKINode Title="constructor" Url="html/M_DcProgrammingTutorial_Lib_Classes_Company__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_DcProgrammingTutorial_Lib_Classes_Company.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Classes_Company.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Classes_Company.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Company property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Company.htm" />
+  <HelpKINode Title="Company.Active property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Active.htm" />
+  <HelpKINode Title="Company.Code property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Code.htm" />
+  <HelpKINode Title="Company.Company constructor" Url="html/M_DcProgrammingTutorial_Lib_Classes_Company__ctor.htm" />
+  <HelpKINode Title="Company.DocumentAddedToListEvent2 event" Url="html/E_DcProgrammingTutorial_Lib_Classes_Company_DocumentAddedToListEvent2.htm" />
+  <HelpKINode Title="Company.Documents property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Documents.htm" />
+  <HelpKINode Title="Company.Id property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Id.htm" />
+  <HelpKINode Title="Company.Name property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Name.htm" />
+  <HelpKINode Title="Company.OnDocumentAddedToListHandler2 method" Url="html/M_DcProgrammingTutorial_Lib_Classes_Company_OnDocumentAddedToListHandler2.htm" />
+  <HelpKINode Title="CompanyName property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_CompanyName.htm" />
+  <HelpKINode Title="Created property">
+    <HelpKINode Title="Document.Created Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Created.htm" />
+    <HelpKINode Title="IEntityAudit.Created Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Created.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreatedBy property">
+    <HelpKINode Title="Document.CreatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_CreatedBy.htm" />
+    <HelpKINode Title="IEntityAudit.CreatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_CreatedBy.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateNewDocument method">
+    <HelpKINode Title="DocumentController.CreateNewDocument Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CreateNewDocument.htm" />
+    <HelpKINode Title="IDocumentController.CreateNewDocument Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CreateNewDocument.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DcProgrammingTutorial.Lib namespace" Url="html/N_DcProgrammingTutorial_Lib.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Classes namespace" Url="html/N_DcProgrammingTutorial_Lib_Classes.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments class" Url="html/T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Classes.Company class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Company.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Classes.Document class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Document.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Classes.DocumentAddedToListDelegate2 delegate" Url="html/T_DcProgrammingTutorial_Lib_Classes_DocumentAddedToListDelegate2.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Classes.DocumentBalanceUpdatedDelegate delegate" Url="html/T_DcProgrammingTutorial_Lib_Classes_DocumentBalanceUpdatedDelegate.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Controllers namespace" Url="html/N_DcProgrammingTutorial_Lib_Controllers.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Controllers.DocumentAddedToListDelegate delegate" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentAddedToListDelegate.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Controllers.DocumentController class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2 class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Enums namespace" Url="html/N_DcProgrammingTutorial_Lib_Enums.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Enums.MessagedTypes enumeration" Url="html/T_DcProgrammingTutorial_Lib_Enums_MessagedTypes.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Interfaces namespace" Url="html/N_DcProgrammingTutorial_Lib_Interfaces.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Interfaces.IDocumentController interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Interfaces.IEntity interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntity.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Interfaces.IEntityAudit interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit.htm" />
+  <HelpKINode Title="DcProgrammingTutorial.Lib.Logger class" Url="html/T_DcProgrammingTutorial_Lib_Logger.htm" />
+  <HelpKINode Title="Deleted property">
+    <HelpKINode Title="Document.Deleted Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Deleted.htm" />
+    <HelpKINode Title="IEntityAudit.Deleted Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Deleted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeletedBy property">
+    <HelpKINode Title="Document.DeletedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_DeletedBy.htm" />
+    <HelpKINode Title="IEntityAudit.DeletedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_DeletedBy.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document class">
+    <HelpKINode Title="Document Class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Document.htm" />
+    <HelpKINode Title="about Document class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/M_DcProgrammingTutorial_Lib_Classes_Document__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_DcProgrammingTutorial_Lib_Classes_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Classes_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Classes_Document.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.Balance property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Balance.htm" />
+  <HelpKINode Title="Document.Code property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Code.htm" />
+  <HelpKINode Title="Document.Company property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Company.htm" />
+  <HelpKINode Title="Document.CompanyName property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_CompanyName.htm" />
+  <HelpKINode Title="Document.Created property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Created.htm" />
+  <HelpKINode Title="Document.CreatedBy property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_CreatedBy.htm" />
+  <HelpKINode Title="Document.Deleted property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Deleted.htm" />
+  <HelpKINode Title="Document.DeletedBy property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_DeletedBy.htm" />
+  <HelpKINode Title="Document.Document constructor" Url="html/M_DcProgrammingTutorial_Lib_Classes_Document__ctor.htm" />
+  <HelpKINode Title="Document.DocumentBalanceUpdatedEvent event" Url="html/E_DcProgrammingTutorial_Lib_Classes_Document_DocumentBalanceUpdatedEvent.htm" />
+  <HelpKINode Title="Document.Id property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Id.htm" />
+  <HelpKINode Title="Document.Name property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Name.htm" />
+  <HelpKINode Title="Document.OnDocumentBalanceUpdatedHandler method" Url="html/M_DcProgrammingTutorial_Lib_Classes_Document_OnDocumentBalanceUpdatedHandler.htm" />
+  <HelpKINode Title="Document.Updated property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Updated.htm" />
+  <HelpKINode Title="Document.UpdatedBy property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_UpdatedBy.htm" />
+  <HelpKINode Title="DocumentAddedToListDelegate delegate" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentAddedToListDelegate.htm" />
+  <HelpKINode Title="DocumentAddedToListDelegate2 delegate" Url="html/T_DcProgrammingTutorial_Lib_Classes_DocumentAddedToListDelegate2.htm" />
+  <HelpKINode Title="DocumentAddedToListEvent event">
+    <HelpKINode Title="DocumentController.DocumentAddedToListEvent Event" Url="html/E_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentAddedToListEvent.htm" />
+    <HelpKINode Title="IDocumentController.DocumentAddedToListEvent Event" Url="html/E_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_DocumentAddedToListEvent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DocumentAddedToListEvent2 event" Url="html/E_DcProgrammingTutorial_Lib_Classes_Company_DocumentAddedToListEvent2.htm" />
+  <HelpKINode Title="DocumentBalanceNullErrorMessage field" Url="html/F_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentBalanceNullErrorMessage.htm" />
+  <HelpKINode Title="DocumentBalanceUpdatedDelegate delegate" Url="html/T_DcProgrammingTutorial_Lib_Classes_DocumentBalanceUpdatedDelegate.htm" />
+  <HelpKINode Title="DocumentBalanceUpdatedEvent event" Url="html/E_DcProgrammingTutorial_Lib_Classes_Document_DocumentBalanceUpdatedEvent.htm" />
+  <HelpKINode Title="DocumentController class">
+    <HelpKINode Title="DocumentController Class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm" />
+    <HelpKINode Title="about DocumentController class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm" />
+    <HelpKINode Title="constructor" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DocumentController.AddDocumentToList method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_AddDocumentToList.htm" />
+  <HelpKINode Title="DocumentController.CalculateAverageBalance method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CalculateAverageBalance.htm" />
+  <HelpKINode Title="DocumentController.CalculateTax method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CalculateTax.htm" />
+  <HelpKINode Title="DocumentController.CreateNewDocument method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CreateNewDocument.htm" />
+  <HelpKINode Title="DocumentController.DocumentAddedToListEvent event" Url="html/E_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentAddedToListEvent.htm" />
+  <HelpKINode Title="DocumentController.DocumentBalanceNullErrorMessage field" Url="html/F_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentBalanceNullErrorMessage.htm" />
+  <HelpKINode Title="DocumentController.DocumentController constructor" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController__ctor.htm" />
+  <HelpKINode Title="DocumentController.DocumentListEmptyErrorMessage field" Url="html/F_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentListEmptyErrorMessage.htm" />
+  <HelpKINode Title="DocumentController.OnDocumentAddedToListHandler method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_OnDocumentAddedToListHandler.htm" />
+  <HelpKINode Title="DocumentController.RemoveDocumentFromList method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_RemoveDocumentFromList.htm" />
+  <HelpKINode Title="DocumentControllerV2 class">
+    <HelpKINode Title="DocumentControllerV2 Class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm" />
+    <HelpKINode Title="about DocumentControllerV2 class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DocumentControllerV2.CalculateAverageBalance method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2_CalculateAverageBalance.htm" />
+  <HelpKINode Title="DocumentControllerV2.CalculateTax method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2_CalculateTax.htm" />
+  <HelpKINode Title="DocumentControllerV2.DocumentControllerV2 constructor" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2__ctor.htm" />
+  <HelpKINode Title="DocumentListEmptyErrorMessage field" Url="html/F_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentListEmptyErrorMessage.htm" />
+  <HelpKINode Title="Documents property" Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Documents.htm" />
+  <HelpKINode Title="Error enumeration member" Url="html/T_DcProgrammingTutorial_Lib_Enums_MessagedTypes.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="Company.Id Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Id.htm" />
+    <HelpKINode Title="Document.Id Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Id.htm" />
+    <HelpKINode Title="IEntity.Id Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntity_Id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDocumentController interface">
+    <HelpKINode Title="IDocumentController Interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm" />
+    <HelpKINode Title="about IDocumentController interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDocumentController.AddDocumentToList method" Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_AddDocumentToList.htm" />
+  <HelpKINode Title="IDocumentController.CalculateAverageBalance method" Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CalculateAverageBalance.htm" />
+  <HelpKINode Title="IDocumentController.CalculateTax method" Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CalculateTax.htm" />
+  <HelpKINode Title="IDocumentController.CreateNewDocument method" Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CreateNewDocument.htm" />
+  <HelpKINode Title="IDocumentController.DocumentAddedToListEvent event" Url="html/E_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_DocumentAddedToListEvent.htm" />
+  <HelpKINode Title="IDocumentController.RemoveDocumentFromList method" Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_RemoveDocumentFromList.htm" />
+  <HelpKINode Title="IEntity interface">
+    <HelpKINode Title="IEntity Interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntity.htm" />
+    <HelpKINode Title="about IEntity interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntity.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Interfaces_IEntity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEntity.Code property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntity_Code.htm" />
+  <HelpKINode Title="IEntity.Id property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntity_Id.htm" />
+  <HelpKINode Title="IEntityAudit interface">
+    <HelpKINode Title="IEntityAudit Interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit.htm" />
+    <HelpKINode Title="about IEntityAudit interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEntityAudit.Created property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Created.htm" />
+  <HelpKINode Title="IEntityAudit.CreatedBy property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_CreatedBy.htm" />
+  <HelpKINode Title="IEntityAudit.Deleted property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Deleted.htm" />
+  <HelpKINode Title="IEntityAudit.DeletedBy property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_DeletedBy.htm" />
+  <HelpKINode Title="IEntityAudit.Updated property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Updated.htm" />
+  <HelpKINode Title="IEntityAudit.UpdatedBy property" Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_UpdatedBy.htm" />
+  <HelpKINode Title="Info enumeration member" Url="html/T_DcProgrammingTutorial_Lib_Enums_MessagedTypes.htm" />
+  <HelpKINode Title="List property" Url="html/P_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments_List.htm" />
+  <HelpKINode Title="Logger class">
+    <HelpKINode Title="Logger Class" Url="html/T_DcProgrammingTutorial_Lib_Logger.htm" />
+    <HelpKINode Title="about Logger class" Url="html/T_DcProgrammingTutorial_Lib_Logger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Logger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Logger.WriteLog method" Url="html/M_DcProgrammingTutorial_Lib_Logger_WriteLog.htm" />
+  <HelpKINode Title="MessagedTypes enumeration" Url="html/T_DcProgrammingTutorial_Lib_Enums_MessagedTypes.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Company.Name Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Name.htm" />
+    <HelpKINode Title="Document.Name Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnDocumentAddedToListHandler method" Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_OnDocumentAddedToListHandler.htm" />
+  <HelpKINode Title="OnDocumentAddedToListHandler2 method" Url="html/M_DcProgrammingTutorial_Lib_Classes_Company_OnDocumentAddedToListHandler2.htm" />
+  <HelpKINode Title="OnDocumentBalanceUpdatedHandler method" Url="html/M_DcProgrammingTutorial_Lib_Classes_Document_OnDocumentBalanceUpdatedHandler.htm" />
+  <HelpKINode Title="RemoveDocumentFromList method">
+    <HelpKINode Title="DocumentController.RemoveDocumentFromList Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_RemoveDocumentFromList.htm" />
+    <HelpKINode Title="IDocumentController.RemoveDocumentFromList Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_RemoveDocumentFromList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="success property" Url="html/P_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments_success.htm" />
+  <HelpKINode Title="Updated property">
+    <HelpKINode Title="Document.Updated Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Updated.htm" />
+    <HelpKINode Title="IEntityAudit.Updated Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Updated.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpdatedBy property">
+    <HelpKINode Title="Document.UpdatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_UpdatedBy.htm" />
+    <HelpKINode Title="IEntityAudit.UpdatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_UpdatedBy.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Warning enumeration member" Url="html/T_DcProgrammingTutorial_Lib_Enums_MessagedTypes.htm" />
+  <HelpKINode Title="WriteLog method" Url="html/M_DcProgrammingTutorial_Lib_Logger_WriteLog.htm" />
+</HelpKI>

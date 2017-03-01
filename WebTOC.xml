@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c15dbdb3-933c-4b13-894d-acf3578c6b76" Title="Namespaces" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="4dfc7a48-24fe-473b-8414-a3888e1dd688" Title="DcProgrammingTutorial.Lib" Url="html/N_DcProgrammingTutorial_Lib.htm">
+      <HelpTOCNode Id="051d2073-77fc-4b9f-bc9a-8438719de814" Title="Logger Class" Url="html/T_DcProgrammingTutorial_Lib_Logger.htm">
+        <HelpTOCNode Id="a510b772-37d0-4b7c-9f41-9cfd82ecbb7f" Title="Logger Methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Logger.htm">
+          <HelpTOCNode Title="WriteLog Method " Url="html/M_DcProgrammingTutorial_Lib_Logger_WriteLog.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f10474a4-3338-4495-898a-0db6c8903f6a" Title="DcProgrammingTutorial.Lib.Classes" Url="html/N_DcProgrammingTutorial_Lib_Classes.htm">
+      <HelpTOCNode Id="80cd9e4b-92f2-4450-90d9-35d52210779d" Title="ChangesOnDocuments Class" Url="html/T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm">
+        <HelpTOCNode Title="ChangesOnDocuments Constructor " Url="html/M_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments__ctor.htm" />
+        <HelpTOCNode Id="d9892743-e073-4fa3-a8b9-d329aaaf9d69" Title="ChangesOnDocuments Properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm">
+          <HelpTOCNode Title="List Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments_List.htm" />
+          <HelpTOCNode Title="success Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments_success.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ChangesOnDocuments Methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Classes_ChangesOnDocuments.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dff1e642-b35c-437f-86bc-df36c0862c1c" Title="Company Class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Company.htm">
+        <HelpTOCNode Title="Company Constructor " Url="html/M_DcProgrammingTutorial_Lib_Classes_Company__ctor.htm" />
+        <HelpTOCNode Id="91123544-8e6d-49e1-87e4-eeb35fecb2ba" Title="Company Properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Classes_Company.htm">
+          <HelpTOCNode Title="Active Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Active.htm" />
+          <HelpTOCNode Title="Code Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Code.htm" />
+          <HelpTOCNode Title="Documents Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Documents.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Id.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Company_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fcc41ea6-2020-4078-b4c6-7aa4dd008f4e" Title="Company Methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Classes_Company.htm">
+          <HelpTOCNode Title="OnDocumentAddedToListHandler2 Method " Url="html/M_DcProgrammingTutorial_Lib_Classes_Company_OnDocumentAddedToListHandler2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d0fd953c-bf40-4371-925c-4b743d937061" Title="Company Events" Url="html/Events_T_DcProgrammingTutorial_Lib_Classes_Company.htm">
+          <HelpTOCNode Title="DocumentAddedToListEvent2 Event" Url="html/E_DcProgrammingTutorial_Lib_Classes_Company_DocumentAddedToListEvent2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f1b8861-e856-497c-8768-36a9291ef0dc" Title="Document Class" Url="html/T_DcProgrammingTutorial_Lib_Classes_Document.htm">
+        <HelpTOCNode Title="Document Constructor " Url="html/M_DcProgrammingTutorial_Lib_Classes_Document__ctor.htm" />
+        <HelpTOCNode Id="8db071be-3116-47ba-aed5-d0d41b35ee91" Title="Document Properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Classes_Document.htm">
+          <HelpTOCNode Title="Balance Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Balance.htm" />
+          <HelpTOCNode Title="Code Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Code.htm" />
+          <HelpTOCNode Title="Company Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Company.htm" />
+          <HelpTOCNode Title="CompanyName Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_CompanyName.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_CreatedBy.htm" />
+          <HelpTOCNode Title="Deleted Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Deleted.htm" />
+          <HelpTOCNode Title="DeletedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_DeletedBy.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Id.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Name.htm" />
+          <HelpTOCNode Title="Updated Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_Updated.htm" />
+          <HelpTOCNode Title="UpdatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Classes_Document_UpdatedBy.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0d136996-67f9-4148-b119-cc1a2664e00d" Title="Document Methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Classes_Document.htm">
+          <HelpTOCNode Title="OnDocumentBalanceUpdatedHandler Method " Url="html/M_DcProgrammingTutorial_Lib_Classes_Document_OnDocumentBalanceUpdatedHandler.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e897056c-bc93-4297-aedf-fa3058dfe24a" Title="Document Events" Url="html/Events_T_DcProgrammingTutorial_Lib_Classes_Document.htm">
+          <HelpTOCNode Title="DocumentBalanceUpdatedEvent Event" Url="html/E_DcProgrammingTutorial_Lib_Classes_Document_DocumentBalanceUpdatedEvent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="DocumentAddedToListDelegate2 Delegate" Url="html/T_DcProgrammingTutorial_Lib_Classes_DocumentAddedToListDelegate2.htm" />
+      <HelpTOCNode Title="DocumentBalanceUpdatedDelegate Delegate" Url="html/T_DcProgrammingTutorial_Lib_Classes_DocumentBalanceUpdatedDelegate.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5bf50efe-3626-4fef-9179-40d1a16d03ba" Title="DcProgrammingTutorial.Lib.Controllers" Url="html/N_DcProgrammingTutorial_Lib_Controllers.htm">
+      <HelpTOCNode Title="DocumentAddedToListDelegate Delegate" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentAddedToListDelegate.htm" />
+      <HelpTOCNode Id="76138358-213b-467c-8018-8ed633fd8f9e" Title="DocumentController Class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm">
+        <HelpTOCNode Title="DocumentController Constructor " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController__ctor.htm" />
+        <HelpTOCNode Id="028015c0-235e-4e43-9eb3-ef0602ea32aa" Title="DocumentController Methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm">
+          <HelpTOCNode Title="AddDocumentToList Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_AddDocumentToList.htm" />
+          <HelpTOCNode Title="CalculateAverageBalance Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CalculateAverageBalance.htm" />
+          <HelpTOCNode Title="CalculateTax Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CalculateTax.htm" />
+          <HelpTOCNode Title="CreateNewDocument Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_CreateNewDocument.htm" />
+          <HelpTOCNode Title="OnDocumentAddedToListHandler Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_OnDocumentAddedToListHandler.htm" />
+          <HelpTOCNode Title="RemoveDocumentFromList Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentController_RemoveDocumentFromList.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8caa8156-704d-4511-8998-8a837f86187a" Title="DocumentController Events" Url="html/Events_T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm">
+          <HelpTOCNode Title="DocumentAddedToListEvent Event" Url="html/E_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentAddedToListEvent.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0dfc4ef0-ee27-45e7-a95e-0894b56c0bf8" Title="DocumentController Fields" Url="html/Fields_T_DcProgrammingTutorial_Lib_Controllers_DocumentController.htm">
+          <HelpTOCNode Title="DocumentBalanceNullErrorMessage Field" Url="html/F_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentBalanceNullErrorMessage.htm" />
+          <HelpTOCNode Title="DocumentListEmptyErrorMessage Field" Url="html/F_DcProgrammingTutorial_Lib_Controllers_DocumentController_DocumentListEmptyErrorMessage.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="273d0e6f-0656-4f8e-a97e-2a64bf113bfe" Title="DocumentControllerV2 Class" Url="html/T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm">
+        <HelpTOCNode Title="DocumentControllerV2 Constructor " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2__ctor.htm" />
+        <HelpTOCNode Id="7aaa1924-c5de-403c-aa03-d38cb097457a" Title="DocumentControllerV2 Methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm">
+          <HelpTOCNode Title="CalculateAverageBalance Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2_CalculateAverageBalance.htm" />
+          <HelpTOCNode Title="CalculateTax Method " Url="html/M_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2_CalculateTax.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DocumentControllerV2 Events" Url="html/Events_T_DcProgrammingTutorial_Lib_Controllers_DocumentControllerV2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e25540f8-c689-43f8-aca9-19d9b28ac00f" Title="DcProgrammingTutorial.Lib.Enums" Url="html/N_DcProgrammingTutorial_Lib_Enums.htm">
+      <HelpTOCNode Title="MessagedTypes Enumeration" Url="html/T_DcProgrammingTutorial_Lib_Enums_MessagedTypes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="836ec3b0-67be-4e38-8cd0-31381a187def" Title="DcProgrammingTutorial.Lib.Interfaces" Url="html/N_DcProgrammingTutorial_Lib_Interfaces.htm">
+      <HelpTOCNode Id="c579bc9b-f222-4fa5-a7b9-1c58753a7d57" Title="IDocumentController Interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm">
+        <HelpTOCNode Id="5afb7de0-1e25-4cbe-a42d-8c690e4f8377" Title="IDocumentController Methods" Url="html/Methods_T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm">
+          <HelpTOCNode Title="AddDocumentToList Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_AddDocumentToList.htm" />
+          <HelpTOCNode Title="CalculateAverageBalance Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CalculateAverageBalance.htm" />
+          <HelpTOCNode Title="CalculateTax Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CalculateTax.htm" />
+          <HelpTOCNode Title="CreateNewDocument Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_CreateNewDocument.htm" />
+          <HelpTOCNode Title="RemoveDocumentFromList Method " Url="html/M_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_RemoveDocumentFromList.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dd6dd234-adc7-4ed1-85ab-7dbba22dde94" Title="IDocumentController Events" Url="html/Events_T_DcProgrammingTutorial_Lib_Interfaces_IDocumentController.htm">
+          <HelpTOCNode Title="DocumentAddedToListEvent Event" Url="html/E_DcProgrammingTutorial_Lib_Interfaces_IDocumentController_DocumentAddedToListEvent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="49a47a8a-a752-42aa-8597-fcef4a965150" Title="IEntity Interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntity.htm">
+        <HelpTOCNode Id="2b467771-aa09-465e-bbf5-6e98dc067bf4" Title="IEntity Properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Interfaces_IEntity.htm">
+          <HelpTOCNode Title="Code Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntity_Code.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntity_Id.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f269ead-21d6-4a4c-bd78-753cf67ff603" Title="IEntityAudit Interface" Url="html/T_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit.htm">
+        <HelpTOCNode Id="d816ab92-9cc5-4915-91f6-3f5758c7ccc1" Title="IEntityAudit Properties" Url="html/Properties_T_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit.htm">
+          <HelpTOCNode Title="Created Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_CreatedBy.htm" />
+          <HelpTOCNode Title="Deleted Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Deleted.htm" />
+          <HelpTOCNode Title="DeletedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_DeletedBy.htm" />
+          <HelpTOCNode Title="Updated Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_Updated.htm" />
+          <HelpTOCNode Title="UpdatedBy Property " Url="html/P_DcProgrammingTutorial_Lib_Interfaces_IEntityAudit_UpdatedBy.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
